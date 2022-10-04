@@ -1,0 +1,24 @@
+.navbar {
+  grid-area: n;
+  background-color: #659fec;
+  padding: 20px;
+  border-radius: 4px;
+  max-height: fit-content;
+  min-height: 600px;
+}
+
+  .item {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  .active {
+    color: #0e8add;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  .items {
+    position: fixed;
+  }
