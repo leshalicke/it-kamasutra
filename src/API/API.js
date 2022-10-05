@@ -1,6 +1,4 @@
 import axios from "axios";
-import { saveProfile } from "../Redux/profile-reducer";
-
 
 const instance = axios.create({
   withCredentials: true,
@@ -46,17 +44,22 @@ export const profileAPI = {
   },
 };
 
-
 export const headerAPI = {
   me() {
     return instance.get(`auth/me`)
   },
-  login(email, password, rememberMe = false) {
-    return instance.post(`auth/login`, {email, password, rememberMe})
+  login(email, password, rememberMe = false, captcha = null) {
+    return instance.post(`auth/login`, {email, password, rememberMe, captcha})
   },
   logout() {
     return instance.delete(`auth/login`)
   },
+};
+
+export const securityAPI = {
+  getCaptchaUrl() {
+    return instance.get(`security/get-captcha-url`)
+  }
 };
 
 
