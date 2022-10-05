@@ -66,11 +66,13 @@ const mapStateToProps = (state) => ({
 let AppContainer = compose(withRouter, connect(mapStateToProps, { initializeApp }))(App);
 
 const SamuraiAPP = (props) => {
-  return <BrowserRouter>
+  return (
+        <BrowserRouter>
           <Provider store={store}>
             <AppContainer />
           </Provider>
         </BrowserRouter>
+        )
 };
 
 export default SamuraiAPP;
