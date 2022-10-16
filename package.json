@@ -1,7 +1,7 @@
 {
   "name": "react-01",
   "version": "0.1.0",
-  "homepage": "https://leshalicke.github.io/it-kamasutra",
+  "homepage": "https://github.com/leshalicke/it-kamasutra",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -49,6 +49,6 @@
     ]
   },
   "devDependencies": {
-    
+    "gh-pages": "^4.0.0"
   }
 }
