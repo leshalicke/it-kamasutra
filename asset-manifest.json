@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/leshalicke/it-kamasutra.git/static/css/main.8f99114d.css",
-    "main.js": "/leshalicke/it-kamasutra.git/static/js/main.20b6e223.js",
-    "static/css/672.9c77735d.chunk.css": "/leshalicke/it-kamasutra.git/static/css/672.9c77735d.chunk.css",
-    "static/js/672.7ca22063.chunk.js": "/leshalicke/it-kamasutra.git/static/js/672.7ca22063.chunk.js",
-    "static/css/29.977aa875.chunk.css": "/leshalicke/it-kamasutra.git/static/css/29.977aa875.chunk.css",
-    "static/js/29.1ddf4e9d.chunk.js": "/leshalicke/it-kamasutra.git/static/js/29.1ddf4e9d.chunk.js",
-    "static/js/787.9c04a852.chunk.js": "/leshalicke/it-kamasutra.git/static/js/787.9c04a852.chunk.js",
-    "static/media/oie_oh7aQUpQyx6d.gif": "/leshalicke/it-kamasutra.git/static/media/oie_oh7aQUpQyx6d.47c1b0b473dbbd395194.gif",
-    "static/media/loading.gif": "/leshalicke/it-kamasutra.git/static/media/loading.ad3c9229c70ef7114efa.gif",
-    "static/media/user.jpg": "/leshalicke/it-kamasutra.git/static/media/user.bc1d52c5a767c2df66ed.jpg",
-    "index.html": "/leshalicke/it-kamasutra.git/index.html",
-    "main.8f99114d.css.map": "/leshalicke/it-kamasutra.git/static/css/main.8f99114d.css.map",
-    "main.20b6e223.js.map": "/leshalicke/it-kamasutra.git/static/js/main.20b6e223.js.map",
-    "672.9c77735d.chunk.css.map": "/leshalicke/it-kamasutra.git/static/css/672.9c77735d.chunk.css.map",
-    "672.7ca22063.chunk.js.map": "/leshalicke/it-kamasutra.git/static/js/672.7ca22063.chunk.js.map",
-    "29.977aa875.chunk.css.map": "/leshalicke/it-kamasutra.git/static/css/29.977aa875.chunk.css.map",
-    "29.1ddf4e9d.chunk.js.map": "/leshalicke/it-kamasutra.git/static/js/29.1ddf4e9d.chunk.js.map",
-    "787.9c04a852.chunk.js.map": "/leshalicke/it-kamasutra.git/static/js/787.9c04a852.chunk.js.map"
+    "main.css": "/leshalicke/it-kamasutra/static/css/main.9e96b2b8.css",
+    "main.js": "/leshalicke/it-kamasutra/static/js/main.eaad1b18.js",
+    "static/css/672.9c77735d.chunk.css": "/leshalicke/it-kamasutra/static/css/672.9c77735d.chunk.css",
+    "static/js/672.7ca22063.chunk.js": "/leshalicke/it-kamasutra/static/js/672.7ca22063.chunk.js",
+    "static/css/29.977aa875.chunk.css": "/leshalicke/it-kamasutra/static/css/29.977aa875.chunk.css",
+    "static/js/29.1ddf4e9d.chunk.js": "/leshalicke/it-kamasutra/static/js/29.1ddf4e9d.chunk.js",
+    "static/js/787.9c04a852.chunk.js": "/leshalicke/it-kamasutra/static/js/787.9c04a852.chunk.js",
+    "static/media/oie_oh7aQUpQyx6d.gif": "/leshalicke/it-kamasutra/static/media/oie_oh7aQUpQyx6d.47c1b0b473dbbd395194.gif",
+    "static/media/loading.gif": "/leshalicke/it-kamasutra/static/media/loading.ad3c9229c70ef7114efa.gif",
+    "static/media/user.jpg": "/leshalicke/it-kamasutra/static/media/user.bc1d52c5a767c2df66ed.jpg",
+    "index.html": "/leshalicke/it-kamasutra/index.html",
+    "main.9e96b2b8.css.map": "/leshalicke/it-kamasutra/static/css/main.9e96b2b8.css.map",
+    "main.eaad1b18.js.map": "/leshalicke/it-kamasutra/static/js/main.eaad1b18.js.map",
+    "672.9c77735d.chunk.css.map": "/leshalicke/it-kamasutra/static/css/672.9c77735d.chunk.css.map",
+    "672.7ca22063.chunk.js.map": "/leshalicke/it-kamasutra/static/js/672.7ca22063.chunk.js.map",
+    "29.977aa875.chunk.css.map": "/leshalicke/it-kamasutra/static/css/29.977aa875.chunk.css.map",
+    "29.1ddf4e9d.chunk.js.map": "/leshalicke/it-kamasutra/static/js/29.1ddf4e9d.chunk.js.map",
+    "787.9c04a852.chunk.js.map": "/leshalicke/it-kamasutra/static/js/787.9c04a852.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f99114d.css",
-    "static/js/main.20b6e223.js"
+    "static/css/main.9e96b2b8.css",
+    "static/js/main.eaad1b18.js"
   ]
 }
