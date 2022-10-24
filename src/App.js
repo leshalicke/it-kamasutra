@@ -1,6 +1,6 @@
 import React, { Component, Suspense } from 'react';
 import './App.css';
-import { Routes, Route, useParams, Navigate } from 'react-router-dom';
+import { Routes, Route, useParams } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import News from './components/News/News';
 import Music from './components/Music/Music';
@@ -27,17 +27,8 @@ export function withRouter(Children) {
 
 class App extends Component {
 
-  catchAllUnhandleErrors = (promiseRejectionEvent) => {
-    alert('some error occured')
-  }
-
   componentDidMount() {
-    this.props.initializeApp();
-    window.addEventListener('unhandledrejection', this.catchAllUnhandleErrors)
-  };
-
-  componentWillUnmount(){
-    window.removeEventListener('unhandledrejection', this.catchAllUnhandleErrors)
+    this.props.initializeApp()
   };
 
   render() {
@@ -51,7 +42,6 @@ class App extends Component {
         <div className='app-wrapper-content'>
           <Suspense fallback={<div><Preloader /></div>}>
           <Routes>
-            <Route path="/" element={<Navigate to={'/profile'} />} />
             <Route path='/login' element={<LoginPage />} />
             <Route path="/profile/" element={<ProfileContainer />}>
             <Route path=":userId" element={<ProfileContainer />} />
@@ -61,7 +51,6 @@ class App extends Component {
             <Route path='/music' element={<Music />} />
             <Route path='/users' element={<UsersContainer />} />
             <Route path='/settings' element={<Settings />} />
-            <Route path='*' element={<div>404 NOT FOUND</div>} />
           </Routes>
         </Suspense>
       </div>
