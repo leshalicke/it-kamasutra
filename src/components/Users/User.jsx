@@ -27,8 +27,8 @@ const User = ({user, followingInProgress, unfollow, follow}) => {
               <div>{user.status}</div>
             </span>
             <span>
-              <div>{'u.location.country'}</div>
-              <div>{'u.location.city'}</div>
+              <div>{user.aboutMe}</div>
+              <div>{user.lookingForAJobDescription}</div>
             </span>
           </span>
         </div>

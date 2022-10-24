@@ -15,7 +15,7 @@ let Paginator = ({totalUsersCount: totalItemsCount, pageSize, currentPage, onPag
   let slicedPages = pages.slice(curPF, curPL);
 
   return <>
-      <div>
+      <div className={styles.paginator}>
         {slicedPages.map((p) => {
           return <span className={currentPage === p && styles.selectedPage}
             onClick={() => { onPageChanged(p); }}>{p}</span>;

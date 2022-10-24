@@ -5,7 +5,14 @@ import s from './users.module.css';
 import userPhoto from '../../assets/image/user.jpg'
 import { NavLink } from "react-router-dom";
 
-const Users = ({ currentPage, onPageChanged, totalUsersCount, pageSize, followingInProgress, follow, unfollow, users }) => {
+const Users = ({ 
+  currentPage, 
+  onPageChanged, 
+  totalUsersCount, 
+  pageSize, 
+  followingInProgress, 
+  follow, 
+  unfollow, users }) => {
 
   return (
   <div>
@@ -34,8 +41,8 @@ const Users = ({ currentPage, onPageChanged, totalUsersCount, pageSize, followin
               <div>{user.status}</div>
             </span>
             <span>
-              <div>{'u.location.country'}</div>
-              <div>{'u.location.city'}</div>
+              <div>{user.aboutMe}</div>
+              <div>{user.lookingForAJobDescription}</div>
             </span>
           </span>
         </div>
