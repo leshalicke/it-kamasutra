@@ -19,7 +19,8 @@ const Users = ({
     <Paginator currentPage={currentPage} onPageChanged={onPageChanged}
       totalUsersCount={totalUsersCount} pageSize={pageSize} />
     <div>
-      {users.map(user =><div>
+      {users.map(user =>
+      <div key={user.id}>
           <span>
             <div>
               <NavLink to={'/profile/' + user.id}>

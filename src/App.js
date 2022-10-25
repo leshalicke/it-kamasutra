@@ -1,6 +1,6 @@
 import React, { Component, Suspense } from 'react';
 import './App.css';
-import { Routes, Route, useParams, HashRouter } from 'react-router-dom';
+import { Routes, Route, useParams } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import News from './components/News/News';
 import Music from './components/Music/Music';
@@ -67,11 +67,11 @@ let AppContainer = compose(withRouter, connect(mapStateToProps, { initializeApp 
 
 const SamuraiAPP = (props) => {
   return (
-        <HashRouter>
+        <BrowserRouter>
           <Provider store={store}>
             <AppContainer />
           </Provider>
-        </HashRouter>
+        </BrowserRouter>
         )
 };
 
